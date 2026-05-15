@@ -51,6 +51,7 @@ openai-agents-base/
 │   │   ├── serializers.py
 ├── docs/
 │   ├── architecture.md         # Documentation for architecture and system design
+│   ├── agents_sdk_life_cycle.md # Agents SDK lifecycle principles and execution flow
 ├── tests/
 │   ├── unit/                   # Unit tests
 │   ├── integration/            # Integration tests
