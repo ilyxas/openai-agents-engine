@@ -59,6 +59,16 @@ The Orchestrator is the central authority that executes the lifecycle. Unlike ag
 
 The Orchestrator continuously evaluates progress using trace events, adjusting execution to optimize results.
 
+## OpenAI Agents SDK Mapping
+
+SDK components integrate at runtime for agent-based step execution:
+- `Agent`: Represents planners, workers, or critics.
+- `Runner.run(input/object)`: Executes steps in Runtime.
+- `handoffs`: Transfers roles or data ownership subflows.
+- `guardrails`: Enforces structured safety checks during execution.
+
+The Deterministic Orchestrator uses SDK functions without being an agent itself. Instead, it decides **if/when** components interact within the lifecycle framework.
+
 ## Modular Extensibility for Projects
 
 Each project dynamically configures its modules:
