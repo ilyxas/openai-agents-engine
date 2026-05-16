@@ -1,4 +1,4 @@
-# OpenAI Agents Architecture
+# OpenAI Agents Engine
 
 ## Core Principles
 
